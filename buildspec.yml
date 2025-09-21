@@ -32,7 +32,6 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo pushing Docker images to ECR......
-      - docker push $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:$IMAGE_TAG
       - echo Writing image definitions file...
       # Give your container name
