@@ -53,7 +53,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-        <finalName>CICDECSFargate</finalName>
+        <finalName>cicdecsfargate</finalName>
 	</build>
 
 </project>
