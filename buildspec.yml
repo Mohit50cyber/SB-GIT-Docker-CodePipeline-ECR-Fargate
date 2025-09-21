@@ -3,7 +3,6 @@ phases:
   install:
     runtime-versions:
       java: corretto21   # or corretto11 depending on your project
-      docker: 20
     commands:
       - echo Installing Maven...
       - mvn -version
